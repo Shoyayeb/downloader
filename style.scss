@@ -1,0 +1,29 @@
+body {
+    background: rgb(66, 28, 94);
+    color: #fff;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10em;
+    background:rgb(212, 151, 255);
+    padding: 0.5em 0.5em 0.5em;
+    border-radius: 3px;
+}
+nav {
+    padding: 20px;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }

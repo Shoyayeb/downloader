@@ -1,0 +1,32 @@
+body {
+  background: #421c5e;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10em;
+  background: #d497ff;
+  padding: 0.5em 0.5em 0.5em;
+  border-radius: 3px;
+}
+
+nav {
+  padding: 20px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+/*# sourceMappingURL=style.css.map */
