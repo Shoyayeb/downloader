@@ -1,3 +1,5 @@
+$navBtn : rgb(212, 151, 255);
+
 body {
     background: rgb(66, 28, 94);
     color: #fff;
@@ -6,7 +8,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin-left: 10em;
-    background:rgb(212, 151, 255);
+    background: $navBtn;
     padding: 0.5em 0.5em 0.5em;
     border-radius: 3px;
 }
@@ -27,3 +29,8 @@ nav {
   .btn:hover {
     background-color: RoyalBlue;
   }
+
+.btn-root {
+    margin: 10% 40% 5% 40%;
+    width: 50%;
+}

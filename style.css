@@ -29,4 +29,9 @@ nav {
 .btn:hover {
   background-color: RoyalBlue;
 }
+
+.btn-root {
+  margin: 10% 40% 5% 40%;
+  width: 50%;
+}
 /*# sourceMappingURL=style.css.map */

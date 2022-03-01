@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./style.css">
     <title>Download File</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script>UPLOADCARE_PUBLIC_KEY = "36b5d7b84150a8a671a4";</script>
+    <script src="https://ucarecdn.com/libs/widget/3.7.4/uploadcare.full.min.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -19,15 +20,13 @@
     </nav>
 
     <body>
-        <div>
-            file description
-        </div>
-        <div>
-            <a href="./text.txt" download>
+        <div class="btn-root">
+            <span>Text Download</span>
+            <a href="./files/text.txt" download>
                 <button class="btn"><i class="fa fa-download"></i> Download</button>
             </a>
             <!-- Auto width -->
-
+            <input type="hidden" role="uploadcare-uploader" name="uploaded file" />
         </div>
     </body>
 </body>
